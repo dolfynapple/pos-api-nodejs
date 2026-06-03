@@ -1,5 +1,5 @@
 const fs = require('fs');
-const connection = require('../config/mysql');
+const connection = require('../config/mysql').default;
 
 const {
   dbQuery,
